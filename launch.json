@@ -1,0 +1,25 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "env":{
+                "EC2_INSTANCE_TYPE": "t3a.nano"
+                ,"EC2_PEM_KEY": "nonprod-ec2-matillion"
+                ,"PYTHON_HANDLER": "main.py"
+                ,"SECURITY_GROUP": "sg-029ce161692dc521e"
+                ,"VPC_SUBNET": "subnet-09fea0743410af2a4"
+                ,"AD_username": "AQICAHiHm8z7P5Z3ytNG71Q1WFzkPYJu/ZToibvnNILy2VEQqAHTxvRrbFbrudFCThuv2tHfAAAAbjBsBgkqhkiG9w0BBwagXzBdAgEAMFgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMjEnwzXo6JaiFeyFuAgEQgCtceQlLnhf0lt4K3aimQTPQzRgPnYuWuV36Yn3Pq+H3pHS0Bqva2UtVEiMx"
+                ,"AD_key": "AQICAHiHm8z7P5Z3ytNG71Q1WFzkPYJu/ZToibvnNILy2VEQqAG3cPTygu/tkWpcLYbHy/p0AAAAczBxBgkqhkiG9w0BBwagZDBiAgEAMF0GCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQMWVwzcy65inh3UiN0AgEQgDDbLj04WfzvSwoyBhqzHiSLt1P2CNKbHT/df39F3mdLghmyC9+JVV+Tyyn+bzS0YZ4="
+                ,"AWS_DEFAULT_PROFILE": "saml"
+            }
+        }
+    ]
+}
